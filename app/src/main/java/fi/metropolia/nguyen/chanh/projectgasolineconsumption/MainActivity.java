@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 lastTime = 100*literTakeOut/kmTakeOut;
             }
-
+            System.out.println("chanh test");
             average = 100*sumFuel/sumKm;
             averageText.setText(""+formatterNum.format(average));
             minimunText.setText(""+formatterNum.format(minimum));
